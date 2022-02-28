@@ -1,0 +1,26 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #5e5322;
+  font-weight: 300;
+  background-color: transparent;
+  border: solid 1px #5e5322;
+  padding: 1rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  min-width: 150px;
+  color: #5e5322;
+  margin: 5px;
+  &:hover {
+    background-color: lighten(#737373, 30%);
+    transition: background-color 0.5s ease-out;
+    color: #f0f1f1;
+  }
+  &__container {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+  }
+}

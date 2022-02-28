@@ -1,8 +1,8 @@
 
-import shirt from "../../assets/Icon1.png";
-import bag from "../../assets/Icon2.png";
-import magniglass from "../../assets/Icon3.png";
-import recycle from "../../assets/Icon4.png";
+import shirt from "../../assets/Icon1.svg";
+import bag from "../../assets/Icon2.svg";
+import magniglass from "../../assets/Icon3.svg";
+import recycle from "../../assets/Icon4.svg";
 import {IFour} from "../../types"
 
 const statisticsFourConfig: IFour[] = [

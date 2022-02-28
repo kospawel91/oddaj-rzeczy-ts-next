@@ -2,9 +2,11 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import Navbar from "../components/Navbar";
+import Button from "../components/Button";
 import Header from "../components/Header";
 import styles from "../styles/Home.module.scss";
 import Yellowbar from "../components/Yellowbar";
+import AboutUs from "../components/aboutUs/index";
 import FourSteps from "../components/steps/index";
 import "../fontawesome";
 
@@ -20,6 +22,8 @@ const Home: NextPage = () => {
       <Header />
       <Yellowbar />
       <FourSteps />
+      <Button />
+      <AboutUs />
     </div>
   );
 };
