@@ -1,0 +1,42 @@
+.yellowBar {
+  background-color: $baseYellow-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  &__item {
+    text-align: center;
+    padding: 20px;
+
+    font-weight: 300;
+  }
+  &__num {
+    font-size: 9rem;
+    color: $baseDark-color;
+    padding-bottom: 2rem;
+    font-weight: 600;
+  }
+  &__title {
+    font-size: $fSizeM;
+    color: $baseDgray-color;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: -0.36px;
+  }
+
+  &__text {
+    font-size: $fSizeSm;
+    font-family: $font-Merri;
+    color: $baseDgray-color;
+    letter-spacing: -0.32px;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .yellowBar {
+    flex-direction: row;
+  }
+}

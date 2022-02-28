@@ -1,0 +1,90 @@
+.white__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  &__heroText {
+    padding-bottom: 30px;
+    font-size: 2rem;
+    font-weight: normal;
+  }
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $baseLight-color;
+  &__container {
+    text-align: center;
+  }
+  &__image_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    background-color: #f0f1f1;
+  }
+  &__circle {
+  }
+  &__img {
+  }
+  &__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 1.8rem;
+    padding: 1.5rem 0;
+  }
+  &__line {
+    border: transparent;
+    border-top: 1px solid #3c3c3c;
+    padding-bottom: 1rem;
+    margin: 0 3rem;
+  }
+  &__text {
+    padding: 1rem 0;
+    font-size: 1.6rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .steps {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    &__container {
+      padding: 4rem;
+      align-items: center;
+    }
+    &__header {
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      min-height: 120px;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .steps {
+    &__container {
+      padding: 1rem;
+    }
+    &__header {
+      font-size: 1.5rem;
+      min-height: 80px;
+    }
+    &__text {
+      padding: 0.5rem 0;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  }
+}
